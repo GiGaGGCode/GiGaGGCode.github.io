@@ -1,3 +1,4 @@
+/* Estilos para pantallas pequeñas o movil*/
 .navbar{
     background-color: #d8eeff;
 }
@@ -6,18 +7,18 @@
 }
 .texto-superpuesto {
     position: absolute;
-    top: 50%;
-    left: 30%; 
+    top: 85%;
+    left: 50%; 
     transform: translate(-50%, -50%);
     color: white; 
     text-align: left;
     font-size: 24px; 
-    font-weight: bold; 
-    background: rgb(0, 128, 128, 0.7); 
+    background: rgba(72, 152, 206, 0.7); 
     padding: 15px; 
-    border-radius: 10px;
+    border-radius: .1em;
     white-space: normal; 
     line-height: 1.5;
+    width: 100%;
 }
 .text-widget {
     font-size: 18px; 
@@ -32,3 +33,18 @@
     margin-right: 100px;    
 }
 
+
+/* Estilos para pantallas grandes */
+@media (min-width: 1000px) {
+    .carousel{
+        margin-top: 2em;
+        margin-left: 2em;
+    }
+    .carousel img{
+        border-radius: .5em;
+    }
+    .ubicacion{
+        width: 85%;
+    }
+    
+}
