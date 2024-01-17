@@ -4,4 +4,26 @@
 .navbar-brand{
     color: #f9fffc;
 }
+.texto-superpuesto {
+    position: absolute;
+    top: 50%;
+    left: 30%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: left;
+    font-size: 24px; 
+    font-weight: bold; 
+    background: rgb(0, 128, 128, 0.7); 
+    padding: 15px; 
+    border-radius: 10px;
+    white-space: normal; 
+    line-height: 1.5;
+}
+.text-widget {
+    font-size: 18px; 
+    margin-top: 70px; 
+    margin-left: 100px; 
+    margin-right: 100px; 
+  }
+
 
