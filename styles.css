@@ -33,6 +33,13 @@
     margin-right: 100px;    
 }
 
+#tableExample{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 1250px;    
+}
+
 
 /* Estilos para pantallas grandes */
 @media (min-width: 1000px) {
