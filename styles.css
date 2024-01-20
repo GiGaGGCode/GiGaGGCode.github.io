@@ -1,45 +1,94 @@
-/* Estilos para pantallas pequeñas o movil*/
-.navbar{
-    background-color: #d8eeff;
+/* Estilos para pantallas pequeñás */
+@media (max-width: 767px) {
+    .navbar{
+        background-color: #d8eeff;
+    }
+    .navbar-brand{
+        color: #f9fffc;
+    }
+    .texto-superpuesto {
+        position: absolute;
+        top: 85%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: left;
+        font-size: 24px; 
+        background: rgba(72, 152, 206, 0.7); 
+        padding: 15px; 
+        border-radius: .1em;
+        white-space: normal; 
+        line-height: 1.5;
+        width: 100%;
+    }
+    .text-widget {
+        font-size: 18px; 
+        margin-top: 70px; 
+        margin-left: 20px; 
+        margin-right: 20px; 
+    }
+    
+    #accordionFlushExample{
+        margin-top: 20px;
+        margin-left: 10x;
+        margin-right: 10px;    
+    }
+    
+    #tableExample{
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }    
+    .carousel img{
+        height: 350px;
+    }
+    .text-widget {
+        margin-top: 20px;
+    }
 }
-.navbar-brand{
-    color: #f9fffc;
+/* Estilos para pantallas medianas */
+@media (min-width: 767px) and (max-width: 991px) {
+    .navbar{
+        background-color: #d8eeff;
+    }
+    .navbar-brand{
+        color: #f9fffc;
+    }
+    .texto-superpuesto {
+        position: absolute;
+        top: 85%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: left;
+        font-size: 24px; 
+        background: rgba(72, 152, 206, 0.7); 
+        padding: 15px; 
+        border-radius: .1em;
+        white-space: normal; 
+        line-height: 1.5;
+        width: 100%;
+    }
+    .text-widget {
+        font-size: 18px; 
+        margin-top: 20px; 
+        margin-left: 100px; 
+        margin-right: 100px; 
+    }
+    
+    #accordionFlushExample{
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-right: 100px;    
+    }
+    
+    #tableExample{
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }    
+    
 }
-.texto-superpuesto {
-    position: absolute;
-    top: 85%;
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    color: white; 
-    text-align: left;
-    font-size: 24px; 
-    background: rgba(72, 152, 206, 0.7); 
-    padding: 15px; 
-    border-radius: .1em;
-    white-space: normal; 
-    line-height: 1.5;
-    width: 100%;
-}
-.text-widget {
-    font-size: 18px; 
-    margin-top: 70px; 
-    margin-left: 100px; 
-    margin-right: 100px; 
-}
-
-#accordionFlushExample{
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;    
-}
-
-#tableExample{
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    max-width: 1250px;    
-}
-
 
 /* Estilos para pantallas grandes */
 @media (min-width: 1000px) {
@@ -53,5 +102,44 @@
     .ubicacion{
         width: 85%;
     }
+    .navbar{
+        background-color: #d8eeff;
+    }
+    .navbar-brand{
+        color: #f9fffc;
+    }
+    .texto-superpuesto {
+        position: absolute;
+        top: 85%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: left;
+        font-size: 24px; 
+        background: rgba(72, 152, 206, 0.7); 
+        padding: 15px; 
+        border-radius: .1em;
+        white-space: normal; 
+        line-height: 1.5;
+        width: 100%;
+    }
+    .text-widget {
+        font-size: 18px; 
+        margin-top: 20px; 
+        margin-left: 100px; 
+        margin-right: 100px; 
+    }
     
+    #accordionFlushExample{
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-right: 100px;    
+    }
+    
+    #tableExample{
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }    
 }
+
